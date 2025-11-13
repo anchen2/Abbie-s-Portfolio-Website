@@ -1,0 +1,99 @@
+body {
+    width: 90%;
+    margin: auto;
+    color: #122D54;
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+p {
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    align-items: center;
+    padding: 20px 0;
+    flex-direction: row;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav img {
+    height: 6vh;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 2vw;
+}
+
+a {
+    text-decoration: none;
+    color: #122D54;
+}
+
+a:hover {
+    color: #DD81C6;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.top-section .top-left {
+    width: 30vw;
+    height: 30vw;
+    background-color: #DD81C6;
+    border-radius: 50%;
+}
+
+.top-section .top-right {
+    width: 60vw;
+    padding-left: 5vw;
+
+}
+
+.projects-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.projects-grid div {
+    background-color: #bababa;
+    width: 36vw;
+    padding: 20% 4% 2% 4%;
+    border-radius: 70px;
+    color: #FFF3FC;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 5vh 0;
+    background-color: #DD81C6 ;
+}
