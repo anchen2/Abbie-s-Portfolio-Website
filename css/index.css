@@ -1,4 +1,16 @@
+* {
+    /* border: red 1px solid; For debugging layout issues */
+}
+
 body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF3FC;
+    width: 100%;
+    font-family: montserrat, sans-serif;
+}
+
+.main-content {
     width: 90%;
     margin: auto;
     color: #122D54;
@@ -82,18 +94,115 @@ a:hover {
     margin-bottom: 10vh;
 }
 
-.projects-grid div {
-    background-color: #bababa;
+.project-card {
+    /* background-color: #bababa; */
     width: 36vw;
     padding: 20% 4% 2% 4%;
     border-radius: 70px;
     color: #FFF3FC;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;        /* prevent stretching */
+    background-position: center;   /* center the image */
+    background-repeat: no-repeat;  /* STOP repeating! */
+
+    transition: background-size 0.5s ease; /* smooth zoom */
+    cursor: pointer;
+}
+
+.project-card:hover {
+    background-size: 120%; /* zoom in on hover */
+    transition: ease 0.5s; /* smooth zoom */
+
+}
+
+
+
+#illini-swap-img {
+    background-image: url("css-images/IlliniSwapMockup.png");
+}
+
+
+#cybersafari-img {
+    background-image: url("css-images/CyberSafari.png");
+}
+
+
+
+#powerupprincess-img {
+    background-image: url("css-images/PowerUpPrincessCover.png");
+     
+}
+
+
+#forkfight-img {
+    background-image: url("css-images/fork-fight-img.png");
+
+}
+
+.photo-text {
+    z-index: 2;
+    position: relative;
+    background-color: #122d5481;
+    padding: 10px 2vw;
+    border-radius: 20px;
+    align-items: center;
+    /* opacity: 0.8; */
+
+    opacity: 0;          /* hide it */
+    transition: opacity 0.4s ease;  /* smooth fade-in */
+}
+
+.project-card:hover .photo-text {
+    opacity: 1;  /* show it on hover */
 }
 
 footer {
+    width: 100%;
+    background-color: #DD81C6;
+    color: #122D54;
+    font-family: Montserrat, sans-serif;
+    padding: 40px 5vw;
+
+}
+
+#footer-logo {
+    width: 100%;
+    
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social img {
+    width: 25%;
+    margin-right: 10px;
+    color: #122D54;
+    cursor: pointer;
+}
+
+.footer-container {
     display: flex;
     flex-direction: row;
-    width: 50%;
-    padding: 5vh 0;
-    background-color: #DD81C6 ;
+    align-items: center;
+    gap: 20%;
+}
+
+.footer-right {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: right;
+    gap: 5%;
+}
+
+.footer-left div :hover {
+    image-rendering: brightness(0.1);
+    cursor: pointer;
+}
+.footer-right div :hover {
+    color: #FFF3FC;
+    cursor: pointer;
 }

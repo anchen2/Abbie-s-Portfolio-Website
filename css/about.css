@@ -1,0 +1,23 @@
+
+button {
+    background-color: #122D54;
+    color: white;
+    border: none;
+    padding: 20px 5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1vw 0.5vw;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 1.2em;
+    font-family: montserrat, sans-serif;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #DD81C6;
+    color: #122D54;
+}
+
