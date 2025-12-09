@@ -1,0 +1,32 @@
+.persona {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+.persona-card {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.persona-card img {
+    width: 40%;
+    border-radius: 20px;
+}
+
+
+.persona-info {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.mid-fi-image {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.carosel {
+    margin-bottom: 60px;
+}
