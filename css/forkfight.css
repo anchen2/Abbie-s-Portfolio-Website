@@ -1,16 +1,16 @@
 .persona {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px
 }
 .persona-card {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .persona-card img {
-    width: 40%;
+    width: 20%;
     border-radius: 20px;
 }
 
