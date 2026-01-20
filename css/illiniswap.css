@@ -6,6 +6,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 .header-text img {
     width: 100%;
     border-radius: 50px;
@@ -66,27 +68,26 @@ html {
     display: flex;
     flex-direction: row;
     text-align: center;
+    height: 500px;
     justify-content: space-between;
-    margin-top: 200px;
-    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 120px;
 }
+
 
 .results-item {
     /* padding: 20px; */
     width: 30%;
+
 }
 
-.user-test-results img {
-    height: 20%;
+.results-item img {
+    height: 200px;
 }
 
 /* * {box-sizing:border-box} */
 
-/* .carosel-navagate {
-   display: flex;
-   flex-direction: row;
-   gap: 80px
-} */
+
 
 .dot {
     background-color: #122D54;
@@ -101,6 +102,11 @@ html {
     color: #122D54;
     background-color: #DD81C6;
     cursor: pointer;
+}
+
+.carosel-navagate {
+    text-align: center;
+    margin-top: 20px;
 }
 
 .carosel {
@@ -185,4 +191,20 @@ html {
     list-style-type: disc;
     padding-left: 0;
     font-size: 1.2em;
+}
+
+.whatNext {
+    margin-top: 120px;
+    margin-bottom: 60px;
+    height: 500px;
+}
+
+.results-item-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 500px;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 120px;
 }
