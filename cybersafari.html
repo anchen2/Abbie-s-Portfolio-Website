@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/forkfight.css">
     <link rel="stylesheet" href="css/illiniswap.css">
+    <link rel="stylesheet" href="css/cybersafari.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -18,7 +19,7 @@
             <a href="index.html"><img id="nav-logo" src="images/logo.svg" alt="Abbie Chen Logo"></a>
 
             <ul>
-                <li><a href="uiux-projects.html">UIUX Design</a></li>
+                <li><a href="uiux-projects.html">UI/UX Design</a></li>
                 <li><a href="graphic-design-projects.html">Graphic Design</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
@@ -80,7 +81,7 @@
                 <p>Interactive App Design, Exhibition Design</p>
 
                 <h2>Responsibilities</h2>
-                <p>Conducted Secondary Research, 
+                <p>Conducted Secondary Research,
                     Designed Wireframes,
                     Installed and interactive Installation</p>
 
@@ -152,123 +153,137 @@
 
         <section>
             <h2 id="Low-fi">Low-fidelity Prototype</h2>
-            <img class="low-fi-image" src="images/cybersafari-lowfi.png" alt="Cyber Safari Low-fidelity Prototype">
+            <img class="low-fi-image" src="images/cybersafari/cyber-midfi.png"
+                alt="Cyber Safari Low-fidelity Prototype">
         </section>
 
 
+        <section id="final-designs" class="final-designs-section">
+            <h2>Final Designs</h2>
+            <div class="carosel-navagate" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"> Login and Onboarding</span>
+                <span class="dot" onclick="currentSlide(2)"> Home</span>
+                <span class="dot" onclick="currentSlide(3)">Game</span>
+                <span class="dot" onclick="currentSlide(4)"> Profile </span>
+                <span class="dot" onclick="currentSlide(5)"> Add Friend </span>
 
-        <div class="carosel-navagate" style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"> Login and Onboarding</span>
-            <span class="dot" onclick="currentSlide(2)"> Home</span>
-            <span class="dot" onclick="currentSlide(3)">Game</span>
-            <span class="dot" onclick="currentSlide(4)"> Profile </span>
-            <span class="dot" onclick="currentSlide(5)"> Add Friend </span>
-
-        </div>
-
-        <section class="carosel" id="final-designs">
-            <div class="slides fade">
-                <div class="slide">
-                    <img src="images/cybersafari/Cyber-LoginandOnboarding.png" alt="Cyber Safari OnBoarding and Login"
-                        style="width: 60%;">
-                    <div class="slide-text">
-                        <h2>Login and Onboarding</h2>
-                        <ul class="key-features">
-                            <li> <b>Key features:</b></li>
-                            <li> <u>Password Security Tip:</u> If the user has never created a password before, this teaches them how to make a secure one.</li>
-                            <li> <u>Guardian Contact:</u> Shares the user's progess and data with their guardian. This will provide them updates on how much the user has learned and any areas they might struggle in. This is an optional feature.</li>
-                            <li> <u>Customization:</u> The user can customize their characters color and will be able to add hats and other accessories as they progress through the levels</li>
-
-                        </ul>
-                    </div>
-                </div>
             </div>
 
-            <div class="slides fade">
-                <div class="slide">
-                    <img src="images/cybersafari/Cyber-Home.png" alt="IlliniSwap Final Home"
-                        style="width: 60%;">
-                    <div class="slide-text">
-                        <h2>Home</h2>
-                        <ul class="key-features">
-                            <li> <b>Key features:</b></li>
-                            <li> <u>Environment:</u> Users can explore different areas in the virtual park to learn about internet safety. Each area represents a different topic.
-                            </li>
-                            <li> <u>Coins:</u> The total number of coins the user has earned is displayed. Coins can be used to buy accessories for their character.</li>
-                        </ul>
+            <section class="carosel" id="final-designs">
+                <div class="slides fade">
+                    <div class="slide">
+                        <img src="images/cybersafari/Cyber-LoginandOnboarding.png"
+                            alt="Cyber Safari OnBoarding and Login" style="width: 60%;">
+                        <div class="slide-text">
+                            <h2>Login and Onboarding</h2>
+                            <ul class="key-features">
+                                <li> <b>Key features:</b></li>
+                                <li> <u>Password Security Tip:</u> If the user has never created a password before, this
+                                    teaches them how to make a secure one.</li>
+                                <li> <u>Guardian Contact:</u> Shares the user's progess and data with their guardian.
+                                    This will provide them updates on how much the user has learned and any areas they
+                                    might struggle in. This is an optional feature.</li>
+                                <li> <u>Customization:</u> The user can customize their characters color and will be
+                                    able to add hats and other accessories as they progress through the levels</li>
+
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="slides fade">
-                <div class="slide">
-                    <img src="images/cybersafari/Cyber-Game.png" alt="cyber safari game screens"
-                        style="width: 60%">
-                    <div class="slide-text">
-                        <h2>Game</h2>
-                        <ul class="key-features">
-                            <li> <b>Key features:</b></li>
-                            <li> <u>Story:</u> The game is uses both real life and online and scenarios to teach kids about cyberbullying and how to handle it.
-                            </li>
-                            <li> <u>Illustration:</u> Used to keep the game engaging, light hearted and visually appealing to a young audience.</li>
-                            <li> <u>Rewards:</u> Users are rewarded at the completion of each level by unlocking a new accessory and receiving coins.</li>                        
-                        </ul>
+                <div class="slides fade">
+                    <div class="slide">
+                        <img src="images/cybersafari/Cyber-Home.png" alt="IlliniSwap Final Home" style="width: 60%;">
+                        <div class="slide-text">
+                            <h2>Home</h2>
+                            <ul class="key-features">
+                                <li> <b>Key features:</b></li>
+                                <li> <u>Environment:</u> Users can explore different areas in the virtual park to learn
+                                    about internet safety. Each area represents a different topic.
+                                </li>
+                                <li> <u>Coins:</u> The total number of coins the user has earned is displayed. Coins can
+                                    be used to buy accessories for their character.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="slides fade">
-                <div class="slide">
-                    <img src="images/cybersafari/Cyber-Profile.png" alt="IlliniSwap Final Create a Listing"
-                        style="width: 60%">
-                    <div class="slide-text">
-                        <h2>Profile</h2>
-                        <ul class="key-features">
-                            <li> <b>Key features:</b></li>
-                            <li> <u>Achivments:</u> Users can view their achivments and progress of the levels. These are shared with their guardian and friends they have added on the app.
-                            </li>
-                            <li> <u>Personalization:</u> Top ranking list based only on the user's votes</li>
-                        </ul>
+                <div class="slides fade">
+                    <div class="slide">
+                        <img src="images/cybersafari/Cyber-Game.png" alt="cyber safari game screens" style="width: 60%">
+                        <div class="slide-text">
+                            <h2>Game</h2>
+                            <ul class="key-features">
+                                <li> <b>Key features:</b></li>
+                                <li> <u>Story:</u> The game is uses both real life and online and scenarios to teach
+                                    kids about cyberbullying and how to handle it.
+                                </li>
+                                <li> <u>Illustration:</u> Used to keep the game engaging, light hearted and visually
+                                    appealing to a young audience.</li>
+                                <li> <u>Rewards:</u> Users are rewarded at the completion of each level by unlocking a
+                                    new accessory and receiving coins.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="slides fade">
-                <div class="slide">
-                    <img src="images/cybersafari/Cyber-Friends.png" alt="Cyber Safari Add Friends"
-                        style="width: 60%">
-                    <div class="slide-text">
-                        <h2>Add Friends</h2>
-                        <ul class="key-features">
-                            <li> <b>Key features:</b></li>
-                            <li> <u>Share:</u> Users can share to socail media thier top restaurants
-                            </li>
-                            <li> <u>Personalization:</u> Top ranking list based only on the user's votes</li>
-                        </ul>
+                <div class="slides fade">
+                    <div class="slide">
+                        <img src="images/cybersafari/Cyber-Profile.png" alt="IlliniSwap Final Create a Listing"
+                            style="width: 60%">
+                        <div class="slide-text">
+                            <h2>Profile</h2>
+                            <ul class="key-features">
+                                <li> <b>Key features:</b></li>
+                                <li> <u>Achivments:</u> Users can view their achivments and progress of the levels.
+                                    These are shared with their guardian and friends they have added on the app.
+                                </li>
+                                <li> <u>Personalization:</u> Top ranking list based only on the user's votes</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="slides fade">
+                    <div class="slide">
+                        <img src="images/cybersafari/Cyber-Friends.png" alt="Cyber Safari Add Friends"
+                            style="width: 60%">
+                        <div class="slide-text">
+                            <h2>Add Friends</h2>
+                            <ul class="key-features">
+                                <li> <b>Key features:</b></li>
+                                <li> <u>Share:</u> Users can share to socail media thier top restaurants
+                                </li>
+                                <li> <u>Personalization:</u> Top ranking list based only on the user's votes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </section>
         </section>
 
         <section id="installation-gallery" class="installation-gallery">
-        <h2>Installation Gallery</h2>
-        <div class="installation-images">
-            <img src="images/cybersafari/installation1.jpg" alt="Installation Image 1">
-            <img src="images/cybersafari/installation2.jpg" alt="Installation Image 2">
-            <img src="images/cybersafari/installation3.jpg" alt="Installation Image 3">
-            <img src="images/cybersafari/installation4.jpg" alt="Installation Image 4">
-        </div>
+            <h2>Installation Gallery</h2>
+            <div class="installation-images">
+                <img class="installation-image"src="images/cybersafari/cyber-instalation1.png" alt="Installation Image 1">
+                <img class="installation-image" src="images/cybersafari/cyber-instalation2.png" alt="Installation Image 2">
+                <img class="game-board" src="images/cybersafari/cyber-gameboard1.png" alt="Installation Image 3">
+                <img class="game-board"src="images/cybersafari/cyber-poster1.png" alt="Installation Image 4">
+                <img class="game-board" src="images/cybersafari/cyber-poster2.png" alt="Installation Image 4">
 
-        
+            </div>
+
+
+
+        </section>
+
     </section>
 
-    </section>
 
-    
 
     <footer>
         <div class="footer-container">
