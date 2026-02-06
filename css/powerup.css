@@ -1,0 +1,55 @@
+section {
+    margin-bottom: 60px;
+}
+
+.brand-values {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 7rem;
+}
+
+.brand-item {
+    text-align: center;
+    width: 100%;
+}
+
+.type-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.type-style-card {
+    width: 46%;
+    text-align: center;
+    padding: 2%;
+    /* box-sizing: border-box; */
+}
+
+.grid-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-stats {
+    width: 70%;
+    box-sizing: border-box;
+}
+.grid-image {
+    width: 35%;
+        padding-right: 2rem;
+
+    height: 100%;
+}
+
+.pages-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pages-image {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+}
+
