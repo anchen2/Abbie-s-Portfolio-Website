@@ -10,11 +10,11 @@ body {
     width: 90%;
     margin: auto;
     color: #122D54;
-    /* font-family: Montserrat, sans-serif; */
+    font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.4em;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -35,8 +35,8 @@ h2 {
 
 
 p {
-    font-size: 1.5em;
-    line-height: 1.7em;
+    font-size: 1.2em;
+    line-height: 1.4em;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -85,8 +85,8 @@ a:hover {
 }
 
 .top-section .top-left {
-    width: 30vw;
-    height: 30vw;
+    width: 40vh;
+    height: 40vh;
     background-color: #DD81C6;
     border-radius: 50%;
 }

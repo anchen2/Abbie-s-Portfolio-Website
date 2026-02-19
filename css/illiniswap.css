@@ -38,7 +38,13 @@ html {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* bold for headings */
+    font-style: normal;
 }
 
 #contributors a:hover {
