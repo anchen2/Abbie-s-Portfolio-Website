@@ -113,9 +113,11 @@ a:hover {
     margin-bottom: 10vh;
 }
 
+
 .project-card {
-    width: 45%;
-    padding: 20% 20px 2% 20px;
+    width: 43vw;
+    height: 30vw;
+    
     border-radius: 70px;
     color: #FFF3FC;
     display: flex;
@@ -133,10 +135,6 @@ a:hover {
     transition: ease 0.5s;
     color: #FFF3FC
 }
-
-
-
-
 
 #illini-swap-img {
     background-image: url("css-images/Illini-Swap-Mockup-HAND.png");
@@ -163,9 +161,13 @@ a:hover {
 .photo-text {
     z-index: 2;
     position: relative;
-    background-color: #72215eb5;
+    background-color: #72215ef3;
     padding: 10px 2vw;
-    border-radius: 20px;
+    width: 40%;
+    height: 100%;
+    align-self: flex-end;
+    /* margin: 0vw 1vw; */
+    border-radius: 0px 70px 70px 0px;
     align-items: center;
     /* opacity: 0.8; */
 
