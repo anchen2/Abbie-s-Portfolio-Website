@@ -3,6 +3,10 @@
     border-radius: 35px;
 }
 
+.top-left {
+    padding-left: 5vw;
+}
+
 button {
     background-color: #122D54;
     color: white;
