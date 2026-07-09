@@ -158,6 +158,16 @@ a:hover {
 
 }
 
+#nolia-img {
+    background-image: url("css-images/nolia.png");
+
+}
+
+#uiucgeese-img {
+    background-image: url("css-images/geeseuiuc.png");
+
+}
+
 .photo-text {
     z-index: 2;
     position: relative;
