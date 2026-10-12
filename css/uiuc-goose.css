@@ -1,0 +1,161 @@
+.insightscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 1vw; */
+}
+
+.insights-box {
+    display: flex;
+    border-radius: 20px;
+    background-color: #eebae1;
+    /* margin: 2vh 0 2vh 0; */
+    padding: 2vh 2vw 2vh 2vw;
+    flex-direction: column;
+    width: 27%;
+    align-items: top;
+}
+
+.insights-box img {
+    width: 3vw;
+    align-self: center;
+    height: auto;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+
+.conceptscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#concept-left {
+    width: 60%;
+}
+
+#concept-right {
+    width: 33%;
+}
+
+.geesebrandcbox {
+    margin-bottom: 10vh;
+}
+
+.geesebrandsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#geesetype img {
+    width: 30%;
+}
+
+#geesecolor img {
+    width: 20%;
+}
+
+.socialmedia-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.socialmedia-left {
+    width: 30%;
+}
+
+.socialmedia-right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    width: 65%;
+}
+
+.socialmedia-right img {
+    width: 100%;
+}
+
+.socialmedia-stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.statsli {
+    width: 40%;
+    background-color: #eebae1;
+    padding: 1vh 1vw 1vh 1vw;
+    border-radius: 20px;
+
+}
+
+.analytics-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.analytics-left {
+    width: 50%;
+
+}
+
+.analytics-right {
+    width: 45%;
+
+}
+
+.geesesigns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+}
+
+.col1 {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 800px) {
+    .solution-ideate {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .solution-box {
+        width: 100%;
+        margin-bottom: 2vh;
+        padding: 0 3vw 0 3vw;
+    }
+}
